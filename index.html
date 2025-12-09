@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atma Lombok</title>
+    <!-- Import Google Fonts for a modern, friendly typeface -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f7f5f2;
+        }
+        header {
+            background-color: #e9e3d7;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        header p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        section:nth-of-type(even) {
+            flex-direction: row-reverse;
+            background-color: #f1ede5;
+        }
+        section img {
+            flex: 1 1 40%;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        section .text {
+            flex: 1 1 50%;
+            padding: 10px 20px;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #5d473a;
+        }
+        section p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        /* Lists for charities and partners */
+        ul {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        ul li {
+            margin-right: 15px;
+            margin-bottom: 10px;
+            background-color: #d8cfc4;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+        /* Call‑to‑action buttons */
+        .cta {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .cta a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 24px;
+            border-radius: 30px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .cta a.whatsapp {
+            background-color: #25D366;
+        }
+        .cta a.instagram {
+            background-color: #C13584;
+        }
+        footer {
+            background-color: #e9e3d7;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Atma Lombok</h1>
+        <p>
+            Atma Lombok is a social art project that turns recycled wood and ocean‑inspired creativity into colourful boards. Each piece helps keep the island clean and supports children from low‑income families to go to school.
+        </p>
+    </header>
+
+    <section>
+        <img src="assets/images/image04.jpg" alt="Village women making jewelry">
+        <div class="text">
+            <h2>The women of the village</h2>
+            <p>Under the shade of thatched roofs, laughter fills the air as the women of the village sit together, shaping stories with their hands.</p>
+            <p>They thread ocean‑polished shells, shimmering beads and small treasures collected over time, transforming them into bracelets and necklaces that carry the soul of Lombok.</p>
+            <p>Each bracelet is more than a piece of jewelry: it is a memory you can wear, a fragment of their daily life, and a little piece of their joy, warmth and spirit that travels with you.</p>
+        </div>
+    </section>
+
+    <section>
+        <img src="assets/images/image05.jpg" alt="Wood craftsman shaping a board">
+        <div class="text">
+            <h2>The wood craftsman</h2>
+            <p>In a quiet workshop, the soft sound of carving wood fills the space. A local craftsman patiently shapes each board, following the natural lines and imperfections of the wood.</p>
+            <p>On these wooden canvases, we paint waves, palm trees and fragments of island life. Every colour, every brushstroke is a tribute to Lombok, to its people and to the sea that surrounds them.</p>
+            <p>Each finished board is unique. It tells a story of patient hands, recycled materials given a second life, and a community that believes creativity can be a real engine for change.</p>
+        </div>
+    </section>
+
+    <section>
+        <img src="assets/images/image11.jpg" alt="Smiling children and solidarity initiatives">
+        <div class="text">
+            <h2>Solidarity initiatives</h2>
+            <p>When you buy a board, you are not just taking home a beautiful object. You are helping to fund educational projects, waste‑collection initiatives and local environmental actions on the island.</p>
+            <p>A part of each sale sends children to school, supports families in difficulty and contributes to keeping Lombok’s beaches clean, its oceans blue and its villages thriving.</p>
+            <p>Every purchase becomes a gesture of solidarity: a choice to believe that the future is built not only with what we create, but also with what we choose to give back.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="text" style="flex: 1 1 100%;">
+            <h2>Charities</h2>
+            <p>These are the people who work every day for a better world:</p>
+            <ul>
+                <li>books.for.smiles</li>
+                <li>green.village.lombok</li>
+                <li>kids.of.the.sun</li>
+                <li>wave.of.change.lombok</li>
+                <li>plasticfree.lombok</li>
+                <li>future.seeds.foundation</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="text" style="flex: 1 1 100%;">
+            <h2>Our superhero partners</h2>
+            <p>You can also buy our boards directly from our partner guesthouses and homestays:</p>
+            <ul>
+                <li>sunset.haven.homestay</li>
+                <li>bamboo.garden.lombok</li>
+                <li>surf.vibes.hostel</li>
+                <li>lumbung.lombok.retreat</li>
+                <li>sandy.feet.homestay</li>
+                <li>jungleroots.hostel</li>
+                <li>blue.lagoon.homestay</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="cta">
+        <a href="#" class="whatsapp">WhatsApp</a>
+        <a href="#" class="instagram">Instagram</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Atma Lombok. Made with love.</p>
+    </footer>
+</body>
+</html>
